@@ -11,20 +11,19 @@ module.exports = {
   addtoc: '//input[@id="add-to-cart-button"]',
   viewcart: '//a[@href="/cart?ref_=sw_gtc"]',
   //myt
-  from: '//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[1]/label/span',
+  from: '//span[normalize-space()="From"]',
   blr: '//*[@id="react-autowhatever-1-section-0-item-3"]/div/div[1]/p[1]',
-  to: '//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[2]/label/span',
+  to: '//label[@for="toCity"]',
   hyd: '//*[@id="react-autowhatever-1-section-0-item-5"]/div/div[1]/p[1]',
-  july27: '//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[2]/div[3]/div[5]/div[5]/div/p[1]',
-  travellers: '//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[5]/label/span',
-  two: '//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[5]/div[1]/div[1]/ul[1]/li[2]',
-  three: '//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[5]/div[1]/div[1]/div/div[1]/ul/li[4]',
-  one: '//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[5]/div[1]/div[1]/div/div[2]/ul/li[2]',
-  business: '//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[5]/div[1]/div[1]/ul[2]/li[3]',
-  apply: '//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[5]/div[1]/div[2]/button',
-  search: '//*[@id="root"]/div/div[2]/div/div/div[2]/p/a',
-  okay: '//*[@id="root"]/div/div[2]/div[2]/div[2]/div/div/div[3]/button',
-  air_india: '//*[@id="root"]/div/div[2]/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/label/div/p'
+  july27: '//div[@aria-label="Thu Jul 27 2023"]//p[contains(text(),"27")]',
+  travellers: '//label[@for="travellers"]',
+  two: 'li[data-cy="adults-2"]',
+  three: 'li[data-cy="children-3"]',
+  one: 'li[data-cy="infants-1"]',
+  business: '//li[normalize-space()="Business"]',
+  apply: '//button[normalize-space()="APPLY"]',
+  search: '//a[normalize-space()="Search"]',
+  air_india: '(//input[@id="listingFilterCheckbox"])[4]'
 
 
 };
