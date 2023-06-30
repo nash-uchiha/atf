@@ -5,7 +5,7 @@ Feature: This is to perform automated functional testing of Make my Trip
     And I click "from"
     And I click "blr"
     And I click "to"
-    And I scroll to see the element "hyd"
+    # And I scroll to see the element "hyd"
     And I click "hyd"
     And I click "july27"
     And I click "travellers"
@@ -15,7 +15,6 @@ Feature: This is to perform automated functional testing of Make my Trip
     And I click "business"
     And I click "apply"
     And I click "search"
-    And I click "okay"
     And I click "air_india"
     And I wait for "3" seconds
 
